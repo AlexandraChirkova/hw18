@@ -12,21 +12,24 @@
 - [Примеры автоматизированных тест-кейсов](#примеры-автоматизированных-тест-кейсов)
 - [Сборка в Jenkins](#сборка-в-jenkins)
 - [Запуск из терминала](#запуск-из-терминала)
-- [Allure отчет](#allure-отчет)git init
+- [Allure отчет](#allure-отчет)
 ---
 
 ## Технологии и инструменты:
 ---
-
-<p align="left">
-  <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/IntelliJ_IDEA_icon.svg" height="48" />
-  <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" height="48" />
-  <img src="https://gradle.com/wp-content/uploads/2020/05/gradle-elephant-icon.svg" height="48" />
-  <img src="https://selenide.org/images/logo.svg" height="48" />
-  <img src="https://allurereport.org/assets/logo.svg" height="48" />
-  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" height="48" />
-  <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.png" height="48" />
-  <img src="https://seeklogo.com/images/A/atlassian-jira-logo-9E19C8AF4C-seeklogo.com.png" height="48" />
+<p>
+  <img src="images/logo/Java.svg" height="48" />
+  <img src="images/logo/Intelij_IDEA.svg" height="48" />
+  <img src="images/logo/Github.svg" height="48" />
+  <img src="images/logo/Gradle.svg" height="48" />
+  <img src="images/logo/Allure.svg" height="48" />
+  <img src="images/logo/Allure2.svg" height="48" />
+  <img src="images/logo/Jenkins.svg" height="48" />
+  <img src="images/logo/JUnit5.svg" height="48" />
+  <img src="images/logo/Selenide.svg" height="48" />
+  <img src="images/logo/Selenoid.svg" height="48" />
+  <img src="images/logo/Telegram.svg" height="48" />
+  <img src="images/logo/Jira.svg" height="48" />
 </p>
 
 ---
