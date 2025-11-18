@@ -14,6 +14,8 @@ public class MainPage {
     private final SelenideElement logoFlip= $("[alt='flip.kz']");
     private final SelenideElement langSwitcher =$(".lang-switcher");
     private final SelenideElement searchInput = $("#search_input");
+    private final SelenideElement deliveryMode = $("[alt='Локация']");
+
 
     @Step("Открыть главную")
     public MainPage openPage() {
@@ -45,4 +47,12 @@ public class MainPage {
     public void searchQuery(String searchQuery) {
         searchInput.setValue(searchQuery).pressEnter();
     }
+
+    @Step("Изменить способ доставки")
+    public void selectDeliveryMode() {
+        deliveryMode.click();
+
+    }
+
+
 }
