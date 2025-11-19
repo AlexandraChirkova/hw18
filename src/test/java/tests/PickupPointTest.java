@@ -1,11 +1,13 @@
 package tests;
 
 import components.DeliveryMode;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.MainPage;
 
 @Tag("test")
+@DisplayName("Проверка точек самовывоза и доставки")
 public class PickupPointTest extends BaseTest {
 
     MainPage mainPage = new MainPage();

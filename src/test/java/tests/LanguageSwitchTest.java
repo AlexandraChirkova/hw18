@@ -2,6 +2,7 @@ package tests;
 
 
 import components.Languages;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.EnumSource;
@@ -9,6 +10,7 @@ import pages.MainPage;
 
 
 @Tag("test")
+@DisplayName("Смена языка")
 public class LanguageSwitchTest extends BaseTest {
 
     MainPage mainPage = new MainPage();

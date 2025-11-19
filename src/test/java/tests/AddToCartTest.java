@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.CartPage;
@@ -10,6 +11,7 @@ import pages.ProductPage;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @Tag("test")
+@DisplayName("Добавление товара в корзину")
 public class AddToCartTest extends BaseTest {
 
     MainPage mainPage = new MainPage();

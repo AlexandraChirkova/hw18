@@ -1,5 +1,6 @@
 package tests;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -7,6 +8,7 @@ import pages.CatalogPage;
 import pages.MainPage;
 
 @Tag("test")
+@DisplayName("Поиск товаров")
 public class SearchTest extends BaseTest{
 
     MainPage mainPage = new MainPage();
