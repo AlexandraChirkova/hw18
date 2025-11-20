@@ -90,4 +90,9 @@
 
 ---
 
-![video](images/video/video.mp4)
+<div align="center">
+  <a href="images/video/video.mp4">
+    <img src="images/screenshots/selenoid_video_preview.png" width="80%" />
+  </a>
+</div>
+
