@@ -47,7 +47,7 @@
 
 ## 🔧 Сборка в Jenkins
 <p align="center">
-<img src="images/screenshots/Jenkins.png"  width="500"/>
+<img src="images/screenshots/Jenkins.png" />
 </p>
 ---
 
@@ -86,15 +86,15 @@ clean demoqa_test
 ## Allure отчет
 ---
 <p align="center">
-<img src="images/screenshots/allure2.png"  width="500"/>
-<img src="images/screenshots/allure1.png"  width="500"/>
+<img src="images/screenshots/allure2.png"  />
+<img src="images/screenshots/allure1.png"  />
 </p>
 ---
 
 ## Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/5013/dashboards)
 ---
 <p align="center">
-<img src="images/screenshots/allureTestOps.png"  width="500"/>
+<img src="images/screenshots/allureTestOps.png" />
 </p>
 ---
 
@@ -102,7 +102,7 @@ clean demoqa_test
 
 ---
 <p align="center">
-<img src="images/screenshots/telegramBot.png"  width="500"/>
+<img src="images/screenshots/telegramBot.png" />
 </p>
 ---
 
