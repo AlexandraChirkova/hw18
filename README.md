@@ -65,7 +65,7 @@
 
 <div style="background:#f6f8fa; padding:16px; border-radius:6px;">
 <pre>
-gradle clean demoqa_tes
+gradle clean demoqa_test
 </pre>
 </div>
 
@@ -73,12 +73,11 @@ gradle clean demoqa_tes
 
 <div style="background:#f6f8fa; padding:16px; border-radius:6px;">
 <pre>
-clean demoqa_tes
-"-Dbrowser=${browser}"
-"-DbrowserVersion=${browserVersion}"
-"-DbrowserSize=${browserSize}"
-"-DbaseUrl=${baseUrl}"
-"-DremoteUrl=${remoteUrl}"
+clean demoqa_test
+"-Dbrowser=${BROWSER} "
+"-DbrowserVersion=${BROWSER_VERSION}"
+"-DbrowserSize=${BROWSER_SIZE}"
+"-Dremote=${REMOTE}"
 </pre>
 </div>
 
