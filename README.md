@@ -104,6 +104,7 @@ clean demoqa_test
 <p align="center">
 <img src="images/screenshots/telegramBot.png" />
 </p>
+
 ---
 
 ## Видео примера запуска тестов в Selenoid
