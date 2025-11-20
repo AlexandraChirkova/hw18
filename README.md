@@ -86,7 +86,7 @@ clean demoqa_test
 
 ---
 
-## [Allure](https://jenkins.autotests.cloud/job/38-alexandrachirkova-final-e2e-test/5/allure/) отчет
+## [Allure отчет](https://jenkins.autotests.cloud/job/38-alexandrachirkova-final-e2e-test/5/allure/) 
 ---
 <p align="center">
 <img src="images/screenshots/allure2.png"  />
