@@ -49,6 +49,7 @@
 <p align="center">
 <img src="images/screenshots/Jenkins.png" />
 </p>
+
 ---
 
 ## Параметры сборки в Jenkins
@@ -89,6 +90,7 @@ clean demoqa_test
 <img src="images/screenshots/allure2.png"  />
 <img src="images/screenshots/allure1.png"  />
 </p>
+
 ---
 
 ## Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/5013/dashboards)
@@ -96,6 +98,7 @@ clean demoqa_test
 <p align="center">
 <img src="images/screenshots/allureTestOps.png" />
 </p>
+
 ---
 
 ## Уведомление в Telegram при помощи бота
