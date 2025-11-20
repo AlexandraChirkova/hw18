@@ -61,6 +61,27 @@
 
 ## Запуск из терминала
 
+<h3>Локальный запуск:</h3>
+
+<div style="background:#f6f8fa; padding:16px; border-radius:6px;">
+<pre>
+gradle clean demoqa_tes
+</pre>
+</div>
+
+<h3>Удалённый запуск через Jenkins:</h3>
+
+<div style="background:#f6f8fa; padding:16px; border-radius:6px;">
+<pre>
+clean demoqa_tes
+"-Dbrowser=${browser}"
+"-DbrowserVersion=${browserVersion}"
+"-DbrowserSize=${browserSize}"
+"-DbaseUrl=${baseUrl}"
+"-DremoteUrl=${remoteUrl}"
+</pre>
+</div>
+
 ---
 
 ## Allure отчет
