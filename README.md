@@ -19,18 +19,18 @@
 ## Технологии и инструменты:
 ---
 <p>
-  <img src="images/logo/Java.svg" height="48" />
-  <img src="images/logo/Intelij_IDEA.svg" height="48" />
-  <img src="images/logo/Github.svg" height="48" />
-  <img src="images/logo/Gradle.svg" height="48" />
-  <img src="images/logo/Allure.svg" height="48" />
-  <img src="images/logo/Allure2.svg" height="48" />
-  <img src="images/logo/Jenkins.svg" height="48" />
-  <img src="images/logo/JUnit5.svg" height="48" />
-  <img src="images/logo/Selenide.svg" height="48" />
-  <img src="images/logo/Selenoid.svg" height="48" />
-  <img src="images/logo/Telegram.svg" height="48" />
-  <img src="images/logo/Jira.svg" height="48" />
+  <a href="https://www.java.com/"><img src="images/logo/Java.svg" height="48" alt="Java"/></a> 
+  <a href="https://www.jetbrains.com/idea/"><img src="images/logo/Intelij_IDEA.svg" height="48" alt="IDEA"/></a> 
+  <a href="https://github.com/"><img src="images/logo/Github.svg" height="48" alt="Github"/></a> 
+  <a href="https://gradle.org/"><img src="images/logo/Gradle.svg" height="48" alt="Gradle"/></a> 
+  <a href="https://github.com/allure-framework"><img src="images/logo/Allure.svg" height="48" alt="Allure"/></a> 
+  <a href="https://qameta.io/"><img src="images/logo/Allure2.svg" height="48" alt="Allure TestOps"/></a>  
+  <a href="https://www.jenkins.io/"><img src="images/logo/Jenkins.svg" height="48" alt="Jenkins"/></a>  
+  <a href="https://junit.org/junit5/"><img src="images/logo/JUnit5.svg" height="48"  alt="JUnit 5"/></a>  
+  <a href="https://selenide.org/"><img src="images/logo/Selenide.svg" height="48"  alt="Selenide"/></a> 
+  <a href="https://aerokube.com/selenoid/"><img src="images/logo/Selenoid.svg" height="48" alt="Selenoid"/></a> 
+  <a href="https://web.telegram.org/k/"><img src="images/logo/Telegram.svg" height="48" alt="Telegram"/></a> 
+  <a href="https://www.atlassian.com/ru/software/jira/"><img src="images/logo/Jira.svg" height="48" alt="Jira"/></a>  
 </p>
 
 ---
@@ -45,7 +45,7 @@
 
 ---
 
-## 🔧 Сборка в Jenkins
+## 🔧 Сборка в [Jenkins](https://jenkins.autotests.cloud/job/38-alexandrachirkova-final-e2e-test/)
 <p align="center">
 <img src="images/screenshots/Jenkins.png" />
 </p>
@@ -78,13 +78,13 @@ clean demoqa_test
 "-Dbrowser=${BROWSER} "
 "-DbrowserVersion=${BROWSER_VERSION}"
 "-DbrowserSize=${BROWSER_SIZE}"
-"-Dremote=${REMOTE}"
+"-Dremote=https://user1:1234@${REMOTE}/wd/hub"
 </pre>
 </div>
 
 ---
 
-## Allure отчет
+## [Allure](https://jenkins.autotests.cloud/job/38-alexandrachirkova-final-e2e-test/5/allure/) отчет
 ---
 <p align="center">
 <img src="images/screenshots/allure2.png"  />

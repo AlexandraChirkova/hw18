@@ -36,12 +36,6 @@ public class ProductPage {
         goToCartButton.shouldBe(visible).click();
     }
 
-    @Step ("Закрыть модальное окно")
-    public void closeModalCart(){
-        modalAddToCart.shouldBe(visible);
-        closeModalAddToCart.click();
-    }
-
     @Step("Получить количество товара в корзине")
     public String getCartCount() {
         return cartCount.getText();
