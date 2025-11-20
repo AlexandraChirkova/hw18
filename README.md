@@ -106,4 +106,15 @@ clean demoqa_test
 
 ---
 
+## Видео примера запуска тестов в Selenoid
+
+В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
+<p align="center">
+  <img title="Selenoid Video" src="images/screenshots/demovid.gif">
+</p>
+
+---
+
+
+
 
