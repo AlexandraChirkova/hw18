@@ -10,6 +10,16 @@ repositories {
     mavenCentral()
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 17
+}
+
 allure {
     report {
         version.set("2.24.0")
@@ -34,7 +44,8 @@ dependencies {
             'com.codeborne:selenide:7.0.4',
             'io.qameta.allure:allure-selenide:2.24.0',
             'org.slf4j:slf4j-simple:2.0.9',
-            'com.github.javafaker:javafaker:1.0.2'
+            'org.aeonbits.owner:owner:1.0.12',
+            'org.seleniumhq.selenium:selenium-java:4.39.0'
     )
 }
 
