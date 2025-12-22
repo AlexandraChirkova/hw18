@@ -13,11 +13,9 @@ public interface WebConfig extends Config {
     String browser();
 
     @Key("browserVersion")
-    @DefaultValue("")
     String browserVersion();
 
     @Key("remote")
-    @DefaultValue("")
     String remote();
 
     @Key("browserSize")
@@ -43,9 +41,5 @@ public interface WebConfig extends Config {
     @Key("enableVideo")
     @DefaultValue("true")
     boolean enableVideo();
-
-    @Key("runMode")
-    @DefaultValue("local")
-    String runMode();
 
 }
